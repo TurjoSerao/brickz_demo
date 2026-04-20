@@ -132,14 +132,15 @@ body {
 
 
 /* mobile device */
+
 @media (max-width: 768px) {
     .nav {
         flex-direction: column;
         align-items: flex-start;
         width: 95%;
     }
-    .log0{
-        width: 150px;
+    .logo{
+        width: 100px;
     }
     .menu-toggle {
         display: block;
@@ -162,8 +163,30 @@ body {
         display: flex;
     }
 
+    .nav-top{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+    }
+
     .btn {
         width: 100%;
         margin-top: 10px;
+        display: none;
+    }
+
+    /* hero content */
+    .hero {
+        height: 80vh;
+        
+    }
+    .hero-content {
+        width: 100%;
+        padding:20px;
+    }
+    .hero-content h1{
+        font-size: 66px;
+        line-height: 70px;
     }
 }
